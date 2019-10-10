@@ -1,0 +1,24 @@
+{
+  "context-menu": {
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Chrer",
+          "submenu": [
+            {
+              "label": "Connect",
+              "command": "Chrer:connect"
+            },
+            {
+              "label": "Disconnect",
+              "command": "Chrer:disconnect"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

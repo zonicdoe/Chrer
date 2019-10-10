@@ -1,0 +1,23 @@
+{
+  "name": "Chrer",
+  "main": "./lib/chrer",
+  "version": "0.1.3",
+  "description": "Chrome extension reloader. Refresh Chrome extensions and tabs as you save changes.",
+  "keywords": [
+    "Chrome",
+    "extension",
+    "development",
+    "reload",
+    "refresh",
+    "reloader",
+    "hot",
+    "refreshing",
+    "reloading"
+  ],
+  "repository": "https://github.com/zonicdoe/Chrer.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}

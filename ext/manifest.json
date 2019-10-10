@@ -1,0 +1,35 @@
+{
+  "name": "Chrer",
+  "description": "__MSG_extDescription__",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "homepage_url": "https://github.com/zonicdoe/Chrer",
+  "default_locale": "en",
+
+  "icons": {
+    "16": "src/app/img/icons/chrer16.png",
+    "48": "src/app/img/icons/chrer48.png",
+    "128": "src/app/img/icons/chrer128.png"
+  },
+
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "management"
+  ],
+
+  "externally_connectable": {
+    "matches": ["*://*.instagram.com/*"]
+  },
+
+  "background": {
+    "scripts": [
+      "src/app/js/background.js"
+    ],
+    "persistent": true
+  },
+
+
+  "content_scripts": [
+  ]
+}

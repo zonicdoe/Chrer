@@ -1,0 +1,6 @@
+{
+  "atom-workspace": {
+    "cmd-shift-c": "Chrer:connect",
+    "cmd-shift-d": "Chrer:disconnect"
+  }
+}

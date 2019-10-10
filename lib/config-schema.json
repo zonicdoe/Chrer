@@ -1,0 +1,59 @@
+{
+  "homeURL": {
+    "title": "Home page",
+    "description": "URL to open when Chrome starts.",
+    "type": "string",
+    "default": "https://github.com/zonicdoe"
+  },
+  "ip": {
+    "title": "IP",
+    "description": "Chrome developer tools server host. Leave it as it is, change it only if it's necessary.",
+    "type": "string",
+    "default": "127.0.0.1"
+  },
+  "port": {
+    "title": "Port",
+    "description": "Server's listening port. Change it only if it conflicts with any other service running in your machine.",
+    "type": "integer",
+    "default": 9222,
+    "minimum": 1
+  },
+  "appNames": {
+    "title": "Target extension",
+    "description": "Name of the extension to reload every time you save changes.",
+    "type": "string",
+    "default": "Docs"
+  },
+  "tabRefresh": {
+    "title": "Refresh tabs",
+    "description": "Activates tab refreshing.",
+    "type": "boolean",
+    "default": true
+  },
+  "refreshAll": {
+    "title": "Refresh all the tabs",
+    "description": "**If tab refreshing is avtive**, this will refresh all the tabs.",
+    "type": "boolean",
+    "default": false
+  },
+  "delay": {
+    "title": "Connection delay",
+    "description": "Amount of time to wait for the Chrome Browser to start before atemping to connect to it (in sconds).",
+    "type": "integer",
+    "default": 5,
+    "enum": [
+      0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+      11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+      21, 22, 23, 24, 25, 26, 27, 28, 29, 30,
+      31, 32, 33, 34, 35, 36, 37, 38, 39, 40,
+      41, 42, 43, 44, 45, 46, 47, 48, 49, 50,
+      51, 52, 53, 54, 55, 56, 57, 58, 59, 60
+    ]
+  },
+  "baseCommand": {
+    "title": "Chrome's execution command",
+    "description": "Command by which Chrome is executed in the system. Leave it as it is. Don't change it unless it's necessary.",
+    "type": "string",
+    "default": "google-chrome"
+  }
+}
