@@ -26,11 +26,15 @@ Well, with Atom and Chrer, that doesn't happen anymore. Use this tool to spawn a
 
 ## How to install
 #### Installation from the package manager
-1.- Start Atom editor, if you haven't yet.<br>
+1.- Start Atom editor, if you haven't yet.
+
 2.- In the **menu** bar, go to **Edit/Preferences**.<br>
-If the option is not there, try **"File"** menu and then **"Setings"** or press `Ctrl + ,`.<br>
-3.- In the menu from the left, go to **"Install"**.<br>
-4.- In the search bar, **type "Chrer"**.<br>
+If the option is not there, try **"File"** menu and then **"Setings"** or press `Ctrl + ,`.
+
+3.- In the menu from the left, go to **"Install"**.
+
+4.- In the search bar, **type "Chrer"**.
+
 5.- Look for this package in the results and **click on "Install"**.
 
 #### Installation from source
