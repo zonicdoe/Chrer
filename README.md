@@ -5,6 +5,8 @@
 **Reload** packed or unpacked Chrome **extensions** and refresh tabs **as you save changes** on Atom editor.
 Specially designed **for Chrome extension developers**, this Atom package will help you **boosting** your **developing** process **speed** by showing you the results of your code **updates** in Chrome **on the fly**.
 
+**Check it out at [Atom.io »](https://atom.io/packages/Chrer "Chrer at Atom.io")**
+
 ![Demo](https://github.com/zonicdoe/resources/blob/master/Chrer/IMG/demo.gif?raw=true)
 
 ## Table of contents
