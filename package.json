@@ -1,7 +1,7 @@
 {
   "name": "Chrer",
   "main": "./lib/chrer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Chrome extension reloader. Refresh Chrome extensions and tabs as you save changes.",
   "keywords": [
     "Chrome",
