@@ -7,7 +7,7 @@ Specially designed **for Chrome extension developers**, this Atom package will h
 
 **Check it out at [Atom.io »](https://atom.io/packages/Chrer "Chrer at Atom.io")**
 
-![Demo](https://github.com/zonicdoe/resources/blob/master/Chrer/IMG/demo.gif?raw=true)
+![Demo](https://github.com/zonicdoe/resources/raw/master/Chrer/IMG/demo.gif)
 
 ## Table of contents
 * [What it does?](#what-it-does)
