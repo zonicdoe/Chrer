@@ -56,7 +56,7 @@ function getExtensionsByName (extensionNames) {
                 });
 
                 reject(
-                  'The following extension(s) could\'t been found: ' +
+                  'The following extension(s) could\'t been found:\n' +
                   notFoundString
                 );
               }
@@ -67,7 +67,16 @@ function getExtensionsByName (extensionNames) {
             }
             // None of the extensions required was found:
             else {
-              reject('None of the extensions required was found.');
+              reject(
+                //`None of the extensions required was found.
+                'The extension required wasn\'t found.\n' +
+                'Have you installed it already? If so, please, check ' +
+                'out your Chrer settings in Atom and verify that the ' +
+                'name of the extension in the "Target extension" field ' +
+                'corresponds to the exact name of your extension ' +
+                '(case sensitive).\nYou can find it in its manifest.json file, or in the ' +
+                'Chrome\'s extension panel.'
+              );
             }
           }
         );
@@ -167,7 +176,7 @@ function refresh (appNames, tabRefresh, refreshAll, i) {
     }
   ).catch(
     function(error) {
-      throw new Error(error);
+      alert(error);
     }
   )
 }
