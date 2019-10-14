@@ -1,6 +1,8 @@
 {
   "atom-workspace": {
-    "cmd-shift-c": "Chrer:connect",
-    "cmd-shift-d": "Chrer:disconnect"
+    "cmd-shift-c": "Chrer:Connect",
+    "cmd-shift-d": "Chrer:Disconnect",
+    "cmd-shift-p": "Chrer:Toggle autoreload",
+    "cmd-shift-r": "Chrer:Manual reload"
   }
 }
