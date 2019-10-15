@@ -10,11 +10,19 @@
           "submenu": [
             {
               "label": "Connect",
-              "command": "Chrer:connect"
+              "command": "Chrer:Connect"
             },
             {
               "label": "Disconnect",
-              "command": "Chrer:disconnect"
+              "command": "Chrer:Disconnect"
+            },
+            {
+              "label": "Manual reload",
+              "command": "Chrer:Manual reload"
+            },
+            {
+              "label": "Toggle autoreload",
+              "command": "Chrer:Toggle autoreload"
             }
           ]
         }
