@@ -77,18 +77,24 @@ However, **the easiest way** to start Chrer is by typing the **keybinding** shor
 #### Stop Chrer
 To **stop Chrer**, simply **close the spawned Chrome Browser window** or, if you prefer, you can go to the **"Packages"** menu and click on **Chrer/Disconnect**.<br>
 The **disconnect** command is **available** in the **command palette** as well.<br>
+Another way to stop Chrer is by using the footer toolbar located at the bottom of the Atom's text editor, just click this button:
+![Stop button](https://raw.githubusercontent.com/zonicdoe/resources/master/Chrer/IMG/disconnect.png)<br>
 And finally, **the easiest way** to stop Chreer, again, is the **keybinging** shortcut:<br>
 `CMD + Shift + d`
 
 #### Manual reload
 You can **manually reload** the **Chrome browser** from Atom if you wish. Go to the **"Packages"** menu and click on **Chrer/Manual reload**.<br>
 The **Manual reload** command is **available** in the **command palette** too.<br>
+An additional way to do it is by using the footer toolbar located at the bottom of the Atom's text editor, just click this button:
+![Stop button](https://raw.githubusercontent.com/zonicdoe/resources/master/Chrer/IMG/manualReload.png)<br>
 The **keybinging** shortcut for this command is:<br>
 `CMD + Shift + r`
 
 #### Pause auto-reload
 Some times, you will like to **pause the "auto-reload" feature** of the Chrome browser to make some changes to the source code and save them, but not requiring to reload the browser every single time. In that case, you can **pause this option** by going to the **"Packages"** menu and clicking on **Chrer/Toggle autoreload**. When you want to resume the "auto-reload" feature, click on the same option again.<br>
 The **Toggle autoreload** command is **available** in the **command palette** as the other commands.<br>
+Another way to toggle this option is by using the footer toolbar located at the bottom of the Atom's text editor, just click this button:
+![Stop button](https://raw.githubusercontent.com/zonicdoe/resources/master/Chrer/IMG/pause.png)<br>
 The **keybinging** shortcut for this command is:<br>
 `CMD + Shift + p`
 
