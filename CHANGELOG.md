@@ -1,3 +1,1 @@
-## 0.1.0 - First Release
-* Every feature added
-* Every bug fixed
+**For a full description of new features added and fixed bugs, please visit the [releases page »](https://github.com/zonicdoe/Chrer/releases "Releases")**
